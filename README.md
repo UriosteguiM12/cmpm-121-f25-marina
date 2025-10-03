@@ -1,4 +1,4 @@
-# CMPM 121 Section Activity
+# CMPM 121 Section Activity - Marina Uriostegui
 
 This section activity is intended to introduce you to many of the tools and workflows that we'll use in CMPM 121, Game Development Patterns.
 
@@ -44,3 +44,8 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 2. Under "Source", select "GitHub Actions"
 3. The workflow will automatically deploy on pushes to the `main` branch
 4. Your site will be published at `https://<your-github-username>.github.io/<repository-name>/`
+
+## Changes Made
+
+- Inside the event handler for every time the button is clicked, counter now increments by 1
+- To update the HTML, we set the counterElement to counter as a string so that it is properly read
